@@ -1,0 +1,241 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+}
+
+li {
+    margin-right: 30px;
+    font-size: 20px
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(158, 171, 241);
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: -100px;
+}
+
+h1 {
+    color: white;
+    z-index: 1;
+    height: 10em;
+    justify-content: center;
+    display:flex;
+    font-size: 3em;
+    margin-top: 100px;
+}
+
+.signin {
+    margin-left: 43%;
+    margin-top: -15%;
+    color: white
+}
+
+.sibutton {
+    padding: 10px;
+    margin-left: 5%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 20px
+}
+
+.classes {
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px
+}
+
+table {
+    margin-left: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: black;
+}
+
+td, th{
+    border: 3px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    width: 25%;
+}
+
+th {
+    text-align: center;
+    font-weight: 900
+}
+
+.image {
+    width:500px;
+    height: 400px;
+    padding-bottom: 400px;
+    margin-top:-20%;
+    margin-left: 10%
+}
+
+.next {
+    margin-top: -20%
+}
+
+h3 {
+    text-align: right;
+    color: white;
+    font-size: 50px;
+    margin-right: 20%;
+    float: right;
+    background-color: black;
+}
+
+.wo {
+    margin-top: -35%;
+    margin-left: 40%;
+    margin-right: 10%
+}
+
+#img2 {
+    float:right;
+    margin-right: 10%
+}
+
+.pth {
+    background-color: black;
+    margin-top: -10%;
+    margin-left: 10%;
+    float: left
+}
+
+.nut {
+    margin-top: -10%
+}
+
+#img3 {
+    margin-top: 5%
+}
+
+.now {
+    margin-top: -20%;
+}
+
+.signup {
+    margin-top: -20%;
+    margin-left: 40%;
+    color: white;
+}
+
+label {
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+    font-size: 20px
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px
+}
+
+.subutton {
+    padding: 10px;
+    width: 200px;
+    margin-left: 5%;
+}
+
+.classsignup {
+    text-align: center;
+    margin-top: -400px;
+}
+
+#day {
+    color:white;
+    font-size: 40px;
+
+}
+
+#time {
+    color: white;
+    font-size: 40px;
+}
+
+select {
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.classbutton {
+    padding: 5px;
+}
+
+.signout {
+    float: right;
+    margin-top: -27%;
+    margin-right: 5%;
+}
+
+.extra_signup {
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 7%;
+}
+
+#extra_signup {
+    color: white;
+    text-align: center;
+    margin-top: -20%;
+}
+
+.meeting {
+    font-size: 30px
+}
